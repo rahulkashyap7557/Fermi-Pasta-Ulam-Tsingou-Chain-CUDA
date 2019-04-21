@@ -3,7 +3,7 @@ CUDA version of interacting nonlinear many-body systems. This is a nonlinear cha
 
 Solves equations of motion with the Hamiltonian
 
-$H = \Sigma_{i=1}^{N} \frac{p_i^2}{2m} + \Sigma_{i=0}^{N+1}V(x_{i+1} - x_i)$.
+$$H = \Sigma_{i=1}^{N} \frac{p_i^2}{2m} + \Sigma_{i=0}^{N+1}V(x_{i+1} - x_i)$$.
 
 Here, 
 
