@@ -6,4 +6,4 @@ Current code uses global memory and is slower than serial version on CPU (typica
 Compile using 
 nvcc kernel.cu -o kernel -arch=sm_##
 
-In place of ##, use the compute capability of your card. For compute capability of 3.5, use -arch=sm_35
+In place of ##, use the compute capability of your card. Ex: For compute capability of 3.5, use -arch=sm_35
